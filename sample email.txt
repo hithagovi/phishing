@@ -1,0 +1,132 @@
+
+===============================
+📧 Sample Phishing Email 1: Fake Bank Alert
+===============================
+
+From: security@yourbank-alerts.com
+To: user@example.com
+Subject: URGENT: Verify Your Account Information
+
+Dear Customer,
+
+We have detected suspicious activity on your bank account. For your protection, your account has been temporarily suspended.
+
+Please verify your identity immediately by clicking the link below:
+
+>> [Verify Account Now](http://fakebank-login.com)
+
+Failure to verify within 24 hours will result in permanent account suspension.
+
+Thank you for your prompt attention.
+
+Sincerely,
+Your Bank Security Team
+
+---
+
+📋 Phishing Traits to Analyze:
+
+1. Examine sender's email address for spoofing:
+   - "security@yourbank-alerts.com" is not a real bank domain.
+
+2. Check email headers for discrepancies (use online analyzer):
+   - SPF, DKIM, DMARC likely to fail in real attack.
+
+3. Identify suspicious links or attachments:
+   - Link points to http://fakebank-login.com (non-bank domain, not HTTPS).
+
+4. Look for urgent or threatening language:
+   - “Account has been temporarily suspended”, “Failure to verify will result...”.
+
+5. Note mismatched URLs (hover to see real link):
+   - Text says “Verify Account” but link is fake domain.
+
+6. Verify presence of spelling or grammar errors:
+   - No major typos, but formal tone used to trick recipient.
+
+-------------------------------------------------------
+
+📧 Sample Phishing Email 2: Fake Job Offer
+-------------------------------------------------------
+
+From: hr@techrecruiters.org
+To: user@example.com
+Subject: Congratulations! You're Selected for Work From Home Job
+
+Dear Applicant,
+
+We are offering you an exciting opportunity to work from home and earn $400/day. This is a limited-time offer.
+
+To get started, download the attached form, fill it out, and send it back to us.
+
+>> Attachment: JobOfferForm.doc
+
+We look forward to having you on our team.
+
+Regards,
+HR Team
+Tech Recruiters Inc.
+
+---
+
+📋 Phishing Traits to Analyze:
+
+1. Examine sender's email address for spoofing:
+   - "hr@techrecruiters.org" is generic and not verifiable.
+
+2. Check email headers for discrepancies (use online analyzer):
+   - Would show weak SPF and no DKIM signature.
+
+3. Identify suspicious links or attachments:
+   - Malicious attachment: JobOfferForm.doc (could have macro malware).
+
+4. Look for urgent or threatening language:
+   - “Limited-time offer” creates urgency.
+
+5. Note mismatched URLs (hover to see real link):
+   - No visible links, only attachment.
+
+6. Verify presence of spelling or grammar errors:
+   - Slightly odd sentence structure; lacks professionalism.
+
+-------------------------------------------------------
+
+📧 Sample Phishing Email 3: Password Reset Scam
+-------------------------------------------------------
+
+From: noreply@support-google.com
+To: user@example.com
+Subject: Google Account Password Reset Request
+
+You have requested to reset your password. If this was not you, please secure your account immediately.
+
+>> [Secure Your Account](http://google-recovery-center.com)
+
+If you do not take action within 15 minutes, your account may be compromised.
+
+Thanks,
+Google Account Recovery
+
+---
+
+📋 Phishing Traits to Analyze:
+
+1. Examine sender's email address for spoofing:
+   - "support-google.com" is not a legitimate Google domain.
+
+2. Check email headers for discrepancies (use online analyzer):
+   - Would fail DMARC or SPF checks.
+
+3. Identify suspicious links or attachments:
+   - Link points to http://google-recovery-center.com, not an official Google site.
+
+4. Look for urgent or threatening language:
+   - “If you do not take action within 15 minutes…”
+
+5. Note mismatched URLs (hover to see real link):
+   - Link text says “Secure Your Account”, but it’s a fake URL.
+
+6. Verify presence of spelling or grammar errors:
+   - None obvious, which makes it more dangerous (well-crafted).
+
+=======================================================
