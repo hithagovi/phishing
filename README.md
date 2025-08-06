@@ -8,9 +8,7 @@
 | **6. Unmonitored Mailbox Note**    | While not always suspicious, this tactic is used to prevent replies or questioning.                                   |
 | **7. Header Analysis Result**      | Header shows mismatch in SPF/DKIM or sender’s IP doesn’t match PayPal’s official IP block. *(Verified via MxToolbox)* |
 
-Sure! Here's a **more detailed phishing email analysis report** based on your table, expanding on each indicator with explanations and potential consequences:
 
----
 
 ## **Phishing Email Analysis Report**
 
@@ -20,7 +18,6 @@ Sure! Here's a **more detailed phishing email analysis report** based on your ta
 
 To identify potential phishing characteristics within the suspicious email and determine if it poses a risk to the user.
 
----
 
 ### **Indicators and Detailed Analysis**
 
